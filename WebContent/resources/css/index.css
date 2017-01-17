@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#index{
+	width:40%;
+	height:300px;
+	margin:0 auto;
+	position:absolute;
+    top:28%;
+    left:30%;
+    cursor:pointer;
+	border:1px solid #000;
+}

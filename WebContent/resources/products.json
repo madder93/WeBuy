@@ -1,0 +1,44 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "name":"猫耳朵包包",
+            "type":"1",
+            "price":"59.90",
+            "url":"http://www.baidu.com",
+            "keyWord":"服装 女装"
+        },
+        {
+            "id":"2",
+            "name":"test2",
+            "type":"1",
+            "price":"2.00",
+            "url":"http://www.qq.com",
+            "keyWord":"服装 女装"
+        },
+        {
+            "id":"3",
+            "name":"test3",
+            "type":"2",
+            "price":"1.00",
+            "url":"http://http://www.sina.com",
+            "keyWord":"服装 男装"
+        },
+        {
+            "id":"4",
+            "name":"test4",
+            "type":"3",
+            "price":"1.00",
+            "url":"www.taobao.com",
+            "keyWord":"创意 礼物 女朋友"
+        },
+        {
+            "id":"5",
+            "name":"test5",
+            "type":"4",
+            "price":"1.00",
+            "url":"http://www.tmall.com",
+            "keyWord":"家居"
+        }
+    ]
+}

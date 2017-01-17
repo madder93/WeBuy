@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+*{
+	font-size:14px;
+	margin:0 auto;
+	padding:0;
+}
+
+#wrapper{
+	width:80%;
+	height:auto;
+	margin:0 auto;
+	border:1px solid #000;
+}
+
+#head{
+	height:250px;
+}
+
+#title{
+	height:200px;
+	border:1px solid #000;
+}
+
+#menu{
+	height:50px;
+	border:1px solid #000;
+}
+
+#footer{
+	height:50px;
+	text-align:center;
+	color:#999;
+	line-height:50px;
+	border:1px solid #000;
+}
+
+#body{
+	margin-top:4px;
+}
+
+#left{
+	width:20%;
+	border:1px solid #000;
+	float:left;
+	margin-top:10px;
+}
+
+#center{
+	width:79%;
+	float:right;
+	margin-right:5px;
+	margin-top:10px;
+}
+
+#searchName{
+	height:40px;
+	border:1px solid #000;
+}
+
+#searchType{
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#searchType li{
+	list-style-type:none;
+	height:22px;
+	line-height:22px;
+	cursor:pointer;
+}
+#searchType li:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+.product{
+	width:31%;
+	height:350px;
+	float:left;
+	margin:0px 5px 15px 10px;
+	box-sizing: border-box;   /*把border的宽度固定在他本身的长度里*/
+}
+.product:hover{
+	border:2px solid red;
+}
+
+.productImg{
+	height:280px;
+	cursor:pointer;
+	border:1px solid #000;
+}
+
+.productName{
+	height:40px;
+	color:#666;
+	text-align:center;
+	text-decoration:none;
+}
+.productName a{
+	line-height:40px;
+	color:#666;
+	text-decoration:none;
+}
+.productName a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.productName a .keyword{
+	font-size:12px;
+}
+
+.productPrice{
+	height:30px;
+	text-align:center;
+}
+.productPrice b{
+	font-size:14px;
+	line-height:30px;
+}

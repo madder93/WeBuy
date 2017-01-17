@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+*{
+	font-size:14px;
+	padding:0;
+	margin:0;
+}
+
+#login{
+	width:30%;
+	height:300px;
+	float:right;
+	position:absolute;
+	top:20%;
+	right:10%;
+	border:1px solid #999;
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 5px #999;
+}
+
+#loginForm{
+	width:318px;
+	height:90px;
+	margin:80px auto;
+	margin-bottom:20px;
+}
+
+#loginName{
+	background:url(../image/idb.png) no-repeat;
+}
+
+#loginPass{
+	background:url(../image/pwb.png) no-repeat;
+}
+
+.namePass{
+	height:45px;
+	margin-bottom:10px;
+}
+
+.namePass input{
+	width:255px;
+	height:38px;
+	margin-top:2px;
+	margin-left:50px;
+	margin-bottom:10px;
+}
+
+#btn{
+	width:310px;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	text-align:center;
+	border:1px solid #999;
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:"微软雅黑";
+    color:white;
+    background:url(../image/btnBg.png) repeat-x;
+    cursor:pointer;
+    opacity:0.9;
+    filter:"alpha(opacity=95)";
+    -ms-filter:"alpha(opacity=95)"; /* 旧版IE */
+}
+#btn:hover{
+	opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)"; /* 旧版IE */
+}
+
+#err{
+	width:310px;
+	height:25px;
+	line-height:25px;
+	margin:10px auto;
+	color:red;
+	font-weight:bold;
+	font-size:12px;
+}

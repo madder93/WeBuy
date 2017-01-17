@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+*{
+	font-size:14px;
+	margin:0 auto;
+}
+
+#wrapper{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+
+#toolBtns{
+	width:100%;
+	height:100px;
+	background-color:rgb(243,243,243);
+}
+
+#productShow{
+	width:100%;
+	position:absolute;
+	top:100px;
+	bottom:0;
+}
+
+.urlSpan{
+	color:orange;
+	cursor:pointer;
+}
+.urlSpan:hover{
+	text-decoration: underline;
+}
+
+#tool{
+	width:100%;
+	height:30px;
+	zindex:5;
+	position:fixed;
+	top:0;
+	background-color:rgb(221,221,221);
+}
+
+.btn{
+	cursor:pointer;
+}
+.btn:hover{
+	font-weight:bold;
+	text-decoration: underline;
+}
